@@ -13,7 +13,8 @@ from langchain_core.runnables import RunnablePassthrough
 
 # Setting the necessary environment variables
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+# Add accordingly
+os.environ["LANGCHAIN_API_KEY"] = ""
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 os.environ['USER_AGENT'] = 'my-langchain-app'
 
